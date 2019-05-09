@@ -216,9 +216,12 @@ around. You:
 A. Run for your life
 B. Decide to fight back"""
 	   
-Shia1A =
+Shia1A = """You spot a small cottage with a light on, and suddenly have hope. You begin creeping through
+the underbrush but your leg! Ah! It's caught in a bear trap!
+A. Attempt to gnaw your leg off
+B. Drag the trap with you towards the cottage"""
 
-Shia1B =	   
+Shia1B = """He's brandishing a knife, but you have a sword on you. The battle begins	   
 # def <func>() means we are 'defining' a function, which we do by giving it code to follow through. 	   
 
 	   
