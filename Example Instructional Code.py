@@ -58,7 +58,7 @@
 # This will be important to our story!
 inthewoods = "You’re walking in the woods, there is no one around, and your phone is dead. Out of the corner of your eye you spot him. Its:"
 startchoices = "\nA. Shia Labeouf \nB. An adorable cat \nC. Your cousin, Jim"
-
+print("poop") 
 # When you make a program, you may want information from the person who is using the program.
 # For our purposes, we want to get the user prompts to know what kind of story they want.
 # In a choose your own adventure story, you have options to make the story yours. Ours won't be as complex as
