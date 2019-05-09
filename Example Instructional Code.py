@@ -68,7 +68,6 @@ inthewoods = """You’re walking in the woods, there is no one around, and your 
 you spot him. Its:"""
 choiceA = "A. Shia Labeouf"
 choiceB = "B. An adorable cat"
-choiceC = "C. Your cousin, Jim"
 # 
 # When you make a program, you may want information from the person who is using the program.
 # For our purposes, we want to get the user prompts to know what kind of story they want.
@@ -80,10 +79,9 @@ choiceC = "C. Your cousin, Jim"
 print(inthewoods)
 print(choiceA)
 print(choiceB)
-print(choiceC)
 			
 # That was a lot of typing, and there might be any easier way to do that, which we'll get to later.
-firstanswer = input("Who is it? Type choiceA, choiceB, or choiceC: ")
+firstanswer = input("Who is it? Type choiceA or choiceB ")
 			
 # the input function allows for a user to answer whatever prompt is in the input with some sort of typing. 
 # We're prompting the user here to type in the exact terms, so that the program will recognize that we need one of those answers.
@@ -95,9 +93,26 @@ print(firstanswer)
 # However, it seems like there might be an easier way to do this.
 # We also have an input option, but users have to type out the whole choice in order to prompt the program. 
 # How can we clean this up to make it easier to move forward?
+# Let's try keeping most of it under one variable. 
+inthewoods = """You’re walking in the woods, there is no one around, and your phone is dead. Out of the corner of your eye 
+you spot him. Its:
+A. Shia Labeouf
+B. An adorable cat"""
 
+# We use the triple quotes so that it will hold the format of printing a new line each time we do. 
+# This is also helpful because like earlier, we use a colon, and need to make sure that doesn't effect our code
+print(inthewoods)     
+print(input("Your choice (a/b): "))      
+      
+# Now, we have somewhere to start the story.      
+      
 
 ######################## If/Else Statements ########################
+# You may have talked about in math using if statements. 
+# Whether you did or did not doesn't provide much advantage, so no worries tp those who didn't.
+
+
+
 
 
 
