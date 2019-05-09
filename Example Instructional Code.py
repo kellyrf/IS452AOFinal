@@ -81,8 +81,10 @@ print(inthewoods)
 print(choiceA)
 print(choiceB)
 print(choiceC)
+			
 # That was a lot of typing, and there might be any easier way to do that, which we'll get to later.
 firstanswer = input("Who is it? Type choiceA, choiceB, or choiceC: ")
+			
 # the input function allows for a user to answer whatever prompt is in the input with some sort of typing. 
 # We're prompting the user here to type in the exact terms, so that the program will recognize that we need one of those answers.
 # Later, we'll talk about how to use that answer to move to the next prompt. 
@@ -90,6 +92,9 @@ print(firstanswer)
 
 # Let's unpack this. 
 # We first printed all of our variables that we need for the story to start, along with the options. 
+# However, it seems like there might be an easier way to do this.
+# We also have an input option, but users have to type out the whole choice in order to prompt the program. 
+# How can we clean this up to make it easier to move forward?
 
 
 ######################## If/Else Statements ########################
