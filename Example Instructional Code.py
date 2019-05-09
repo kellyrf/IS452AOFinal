@@ -1,5 +1,26 @@
 # Open workshop with this video: https://www.youtube.com/watch?v=o0u4M6vppCI 
 
+# Before you begin:
+
+
+######################## Openning the Shell ########################
+
+# Prompt all to follow along to the steps provided on the main projected screen.
+# Open up the program PyCharm Edu.
+# On the welcome screen, click Create New Project.
+# Name the project in the location as "ChoiceYourOwnAdventure_[LastName]", with participants inserting
+# their last name. If participants have same last name, prompt them to add first name as well.
+
+
+
+######################## Creating a Program ########################
+
+# After the project loads, have them right click the file with their label under the project bar, select New,
+# and select Python file. 
+# Have them name the file "CYOAProgram_[LastName]", with same naming instructions.
+
+
+
 ######################## Printing a String ########################
 
 # In order to see the results of a program, you often need to print your output.
@@ -34,7 +55,7 @@ print("you're walking in the woods...&&%$#")
 
 
 
-# ######################## Variables ########################
+######################## Variables ########################
 
 # When you have a string, sometimes you need to give it a name to call it back, as you might need it later.
 # To do this, you can make the string a variable. Variables are like in math - the variable x represents
@@ -109,6 +130,8 @@ answer0 = (input("Your choice (a/b): ")
 # Now, we have somewhere to start the story.      
 # Break for lunch and questions      
 
+	   
+	   
 ######################## If/Else Statements ########################
 # You may have talked about in math using if statements. 
 # Whether you did or did not doesn't provide much advantage, so no worries to those who didn't.
@@ -138,7 +161,9 @@ elif answer0.lower().strip() == b:
 # To make the next step, the information has to be within the if statement, per an indent. This is so the code knows that everything
 # whatever follows the statements in the indent, has to run first before moving on to the next step.	   
 # Prompt for questions so far
-	   	   
+
+	   
+	   
 ######################## Functions ########################
 # When writing a program, sometimes appearance does matter for your work. 
 # Not only does it help you visually, but it can also make it easier to spot errors in your code, or rework certain items. 	   
@@ -181,4 +206,6 @@ Shia1A =
 Shia1B =	   
 # def <func>() means we are 'defining' a function, which we do by giving it code to follow through. 	   
 
+	   
+	   
 ######################## Running a Program ########################
