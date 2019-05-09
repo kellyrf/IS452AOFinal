@@ -102,17 +102,20 @@ B. An adorable cat"""
 # We use the triple quotes so that it will hold the format of printing a new line each time we do. 
 # This is also helpful because like earlier, we use a colon, and need to make sure that doesn't effect our code
 print(inthewoods)     
-print(input("Your choice (a/b): "))      
+answer1 = (input("Your choice (a/b): ")      
       
 # Now, we have somewhere to start the story.      
       
 
 ######################## If/Else Statements ########################
 # You may have talked about in math using if statements. 
-# Whether you did or did not doesn't provide much advantage, so no worries tp those who didn't.
+# Whether you did or did not doesn't provide much advantage, so no worries to those who didn't.
+# An if statement provides a way of making choices in a program, where whatever input is received may then lead the program to make 
+# certain choices so as to continue in a specific direction. 
+# So let's see our story continue:
 
-
-
+if answer1.lower().strip() == a:
+	   print(
 
 
 
