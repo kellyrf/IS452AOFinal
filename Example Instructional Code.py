@@ -7,7 +7,14 @@
 #
 # # In this statement, the function 'print()' is passing the literal string "Hello World".
 # # When you run the program, you will get "Hello World"
+# # This also works with single quotes (' ') and triple quotes (""" """), when you print an item as so: 
+# print ('Hello World')
+# print ("""Hello 
+# World""")
 #
+# # Single quotes are helpful if you need to print an item with quotations in it, and triple quotes are helpful
+# # if you need to print an item that spans multiple lines.
+# 
 # # You can use print(<parameter>) to print a number of things for a program.
 # # In programming, a sentence that you would see printed out is considered a string, which is a fancy
 # # way of saying a line of characters.
@@ -18,10 +25,11 @@
 #
 # print("Gibb3rish")
 # print("3+2")
-# print("you're walking in the woods...&&%$#")
+# print('you're walking in the woods...&&%$#')
 #
+# # the last print statement doesn't work - can you tell me why?
 #
-#
+# # print("you're walking in the woods...&&%$#")
 #
 # ######################## Variables ########################
 #
@@ -33,9 +41,10 @@
 #
 # # You can do the same with a string. If you have a super long string, you can make it equal a variable.
 #
-# inthewoods = "You’re walking in the woods, there is no one around, and your phone is dead. Out of the corner of your eye you spot him. Its:"
+# inthewoods = """You’re walking in the woods, there is no one around, and your phone is dead. Out of the corner of your eye 
+# you spot him. Its:"""
 #
-# # As you can see, inthewoods is a pretty long string, and you don't want to type that out every time
+# # As you can see, inthewoods is a pretty long string that takes multiple lines, and you don't want to type that out every time
 # # you want to have it print. So, to avoid that struggle, we set it equal to the name 'inthewoods' and
 # # pass that through the print() function.
 #
