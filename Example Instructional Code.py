@@ -1,3 +1,5 @@
+# Open workshop with this video: https://www.youtube.com/watch?v=o0u4M6vppCI 
+
 ######################## Printing a String ########################
 
 # In order to see the results of a program, you often need to print your output.
@@ -102,10 +104,10 @@ B. An adorable cat"""
 # We use the triple quotes so that it will hold the format of printing a new line each time we do. 
 # This is also helpful because like earlier, we use a colon, and need to make sure that doesn't effect our code
 print(inthewoods)     
-answer1 = (input("Your choice (a/b): ")      
+answer0 = (input("Your choice (a/b): ")      
       
 # Now, we have somewhere to start the story.      
-      
+# Break for lunch and questions      
 
 ######################## If/Else Statements ########################
 # You may have talked about in math using if statements. 
@@ -114,13 +116,69 @@ answer1 = (input("Your choice (a/b): ")
 # certain choices so as to continue in a specific direction. 
 # So let's see our story continue:
 
-if answer1.lower().strip() == a:
-	   print(
+Meow1 = """The adorable cat walks up to you and sits on a large leaf. The cat gives you an inquisitive look, and meows. You:
+A. kneel and reach out cautiously for the cat to sniff you
+B. step back, because you are intensely allergic to cats""" 
 
+Shia1 = """He's following you, about thirty feet back. He get's down on all fours and breaks into a 
+sprint. He's gaining on you. You try to go back to the parking lot and find your car, but you're all turned
+around. You:
+A. Run for your life
+B. Decide to fight back"""
 
-
+if answer0.lower().strip() == a:
+	   print(Shia1)
+	   answershia1 = input("What do you do? (a/b): ")
+elif answer0.lower().strip() == b:
+	   print(Meow1)
+	   answermeow1 = input("what do you do? (a/b): ")
+	   
+# we use those two add ons - '.lower()' and '.strip()' to modify the text so that anything close to our prompted answer is what
+# we get.
+# To make the next step, the information has to be within the if statement, per an indent. This is so the code knows that everything
+# whatever follows the statements in the indent, has to run first before moving on to the next step.	   
+# Prompt for questions so far
+	   	   
 ######################## Functions ########################
+# When writing a program, sometimes appearance does matter for your work. 
+# Not only does it help you visually, but it can also make it easier to spot errors in your code, or rework certain items. 	   
+# If we were to continue with the code, we would have indent after indent of code, like:
+if <variable> == <variable>:
+	   print(<string>)
+	   answerstring = input("word things: ")
+	   if <variable> == <variable>:
+	  	print(<string>)
+	   	answerstring = input("word things: ")
+	   	if <variable> == <variable>:
+	   		print(<string>)
+	   		answerstring = input("word things: ")
+if <variable> == <variable>:
+	   print(<string>)
+	   answerstring = input("word things: ")
+	   if <variable> == <variable>:
+	  	print(<string>)
+	   	answerstring = input("word things: ")
+	   	if <variable> == <variable>:
+	   		print(<string>)
+	   		answerstring = input("word things: ")
 
+# While we can follow this pretty easily, if we want a longer story for each option, it's going to get crowded. 
+# We can avoid this by creating a function! Like print() or input(), we can make our own function that runs certain steps 
+# when we call it. The earlier this is introduced, the easier it is to set up a clean program to run.
+# Since there is more than one story line, we may want to set up a function for each story.
+# Where do you think we should start?
 
+def ShiaStory(): 
+# Under here, we can put all of the strings we need for the story.	   
+Shia1 = """He's following you, about thirty feet back. He get's down on all fours and breaks into a 
+sprint. He's gaining on you. You try to go back to the parking lot and find your car, but you're all turned
+around. You:
+A. Run for your life
+B. Decide to fight back"""
+	   
+Shia1A =
+
+Shia1B =	   
+# def <func>() means we are 'defining' a function, which we do by giving it code to follow through. 	   
 
 ######################## Running a Program ########################
