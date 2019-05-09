@@ -1,4 +1,4 @@
-# Open workshop with this video: https://www.youtube.com/watch?v=o0u4M6vppCI 
+# Open workshop with this video as context: https://www.youtube.com/watch?v=o0u4M6vppCI 
 
 # # Before you begin:
 # - review this content carefully and make any necessary modifications for yourself and your instructional style.
