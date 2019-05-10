@@ -1,3 +1,5 @@
+# these are comments
+
 # Open workshop with this video as context: https://www.youtube.com/watch?v=o0u4M6vppCI 
 
 # # Before you begin:
@@ -11,7 +13,7 @@
 
 
 
-######################## Openning the Shell ########################
+######################## Openning the Integrated Development Environment (IDE) ########################
 
 # Prompt all to follow along to the steps provided on the main projected screen.
 # Open up the program PyCharm Edu.
@@ -39,6 +41,8 @@ print("Hello World")
 # Run the program with the small green triangle. 
 
 # In this statement, the function 'print()' is passing the literal string "Hello World".
+# In programming, a sentence that you would see printed out is considered a string, which is a fancy
+# way of saying a line of characters.
 # When you run the program, you will get 
 "Hello World"
 
@@ -57,13 +61,11 @@ And there's a million things I haven't done
 But just you wait, just you wait""")
 
 # You can use print(<parameter>) to print a number of things for a program.
-# In programming, a sentence that you would see printed out is considered a string, which is a fancy
-# way of saying a line of characters.
 # They don't necessarily have to be words, they can be any character you can type out on a keyboard.
 # However, whatever you print in the quotes, is exactly what you get out of the quotes. Examples:
 print("Gibb3rish")
 print("3+2")
-print('you're walking in the woods...&&%$#')
+# print('you're walking in the woods...&&%$#')
 
 # the last print statement doesn't work, and we got an error - can you tell me why?
 print("you're walking in the woods...&&%$#")
@@ -87,7 +89,7 @@ you spot him. Its:"""
 # So, to avoid that struggle, we set it equal to the name 'inthewoods' and pass that through the print() function.
 print(inthewoods)
 
-# Notice that it prints the content of inthewoods, but not the term "inthewoods". 
+# Notice that it prints the content of inthewoods, but not the variable name "inthewoods". 
 # This is because you're essentially plug and chugging - you're plugging in a value for the variable, like plugging in the
 # coordinates to find the slope of a line (y=mx+b).
 # Python does the work for you, because it already knows that inthewoods equals your string.
@@ -136,7 +138,7 @@ B. An adorable cat"""
 # We use the triple quotes so that it will hold the format of printing a new line each time we do. 
 # This is also helpful because like earlier, we use a colon, and need to make sure that doesn't effect our code
 print(inthewoods)     
-answer0 = (input("Your choice (a/b): ")      
+answer0 = input("Your choice (a/b): ")      
       
 # Now, what do we do with that input? We have somewhere to start the story.      
 # # Break for lunch and questions      
@@ -163,13 +165,13 @@ B. Decide to fight back"""
 print(inthewoods)     
 answer0 = (input("Your choice (a/b): ")  
 	   
-if answer0.lower().strip() == a: 
+if answer0.lower().strip() == "a": 
 # here, you are starting with the if statement - if the answer by the user is an a, being if answer0 == a, then the following occurs:
-	   print(Shia1)
-	   answershia1 = input("What do you do? (a/b): ")
-elif answer0.lower().strip() == b:
-	   print(Meow1)
-	   answermeow1 = input("what do you do? (a/b): ")
+	print(Shia1)
+	answershia1 = input("What do you do? (a/b): ")
+elif answer0.lower().strip() == "b":
+	print(Meow1)
+	answermeow1 = input("what do you do? (a/b): ")
 	   
 # we use those two add ons - '.lower()' and '.strip()' to modify the text so that anything close to our prompted answer is what
 # we get.
@@ -184,22 +186,22 @@ elif answer0.lower().strip() == b:
 # Not only does it help you visually, but it can also make it easier to spot errors in your code, or rework certain items. 	   
 # If we were to continue with the code, we would have indent after indent of code, like:
 if <variable> == <variable>:
-	   print(<string>)
-	   answerstring = input("word things: ")
-	   if <variable> == <variable>:
-	  	print(<string>)
+	print(<string>)
+	answerstring = input("word things: ")
+	if <variable> == <variable>:
+		print(<string>)
 	   	answerstring = input("word things: ")
 	   	if <variable> == <variable>:
 	   		print(<string>)
 	   		answerstring = input("word things: ")
 if <variable> == <variable>:
-	   print(<string>)
-	   answerstring = input("word things: ")
-	   if <variable> == <variable>:
-	  	print(<string>)
+	print(<string>)
+	answerstring = input("word things: ")
+	if <variable> == <variable>:
+		print(<string>)
 	   	answerstring = input("word things: ")
 	   	if <variable> == <variable>:
-	   		print(<string>)
+			print(<string>)
 	   		answerstring = input("word things: ")
 
 # While we can follow this pretty easily, if we want a longer story for each option, it's going to get crowded. 
@@ -209,20 +211,20 @@ if <variable> == <variable>:
 # Where do you think we should start?
 
 def ShiaStory(): 
-# Under here, we can put all of the strings we need for the story.	   
-Shia1 = """He's following you, about thirty feet back. He get's down on all fours and breaks into a 
-sprint. He's gaining on you. You try to go back to the parking lot and find your car, but you're all turned
-around. You:
-A. Run for your life
-B. Decide to fight back"""
-	   
-Shia1A = """You spot a small cottage with a light on, and suddenly have hope. You begin creeping through
-the underbrush but your leg! Ah! It's caught in a bear trap!
-A. Attempt to gnaw your leg off
-B. Drag the trap with you towards the cottage"""
+	# Under here, we can put all of the strings we need for the story.	   
+	Shia1 = """He's following you, about thirty feet back. He get's down on all fours and breaks into a 
+	sprint. He's gaining on you. You try to go back to the parking lot and find your car, but you're all turned
+	around. You:
+	A. Run for your life
+	B. Decide to fight back"""
 
-Shia1B = """He's brandishing a knife, but you have a sword on you. The battle begins	   
-# def <func>() means we are 'defining' a function, which we do by giving it code to follow through. 	   
+	Shia1A = """You spot a small cottage with a light on, and suddenly have hope. You begin creeping through
+	the underbrush but your leg! Ah! It's caught in a bear trap!
+	A. Attempt to gnaw your leg off
+	B. Drag the trap with you towards the cottage"""
+
+	Shia1B = """He's brandishing a knife, but you have a sword on you. The battle begins	   
+	# def <func>() means we are 'defining' a function, which we do by giving it code to follow through. 	   
 
 	   
 	   
