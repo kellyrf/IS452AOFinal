@@ -65,7 +65,7 @@ But just you wait, just you wait""")
 # However, whatever you print in the quotes, is exactly what you get out of the quotes. Examples:
 print("Gibb3rish")
 print("3+2")
-# print('you're walking in the woods...&&%$#')
+print('you're walking in the woods...&&%$#')
 
 # the last print statement doesn't work, and we got an error - can you tell me why?
 print("you're walking in the woods...&&%$#")
@@ -86,6 +86,7 @@ you spot him. Its:"""
 
 # As you can see, inthewoods is a pretty long string that takes multiple lines, and you don't want to type that out every time
 # you want to have it print. 
+# You'll see later that it would make the code look really crowded if we stuck in the entire string for the program.
 # So, to avoid that struggle, we set it equal to the name 'inthewoods' and pass that through the print() function.
 print(inthewoods)
 
@@ -136,6 +137,7 @@ A. Shia Labeouf
 B. An adorable cat"""
 
 # We use the triple quotes so that it will hold the format of printing a new line each time we do. 
+# This is where the variable comes in handy, because again, we don't want to make the code crowded.
 # This is also helpful because like earlier, we use a colon, and need to make sure that doesn't effect our code
 print(inthewoods)     
 answer0 = input("Your choice (a/b): ")      
@@ -167,7 +169,7 @@ answer0 = (input("Your choice (a/b): ")
 	   
 if answer0.lower().strip() == "a": 
 # here, you are starting with the if statement - if the answer by the user is an a, being if answer0 == a, then the following occurs:
-	print(Shia1)
+	print(Shia1) # good thing we're avoiding a whole chunk of string right here! It would look gross.
 	answershia1 = input("What do you do? (a/b): ")
 elif answer0.lower().strip() == "b":
 	print(Meow1)
