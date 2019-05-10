@@ -155,11 +155,11 @@ answer0 = input("Your choice (a/b): ")
 # certain choices so as to continue in a specific direction. 
 # Take this example:
 input("type a whole number above 0: ")
-
 if x == 2: # we are asking a question about a variable, known as x.
 	print ("yes, it is 2!") # if the answer matches, then the output is the printed string
 else: # if it does not fit,
 	print ("that is not 2") #then the output says so
+
 # Here, we have code that splits off in two directions. If the data lines up one way, it runs that part of the code only.
 # If it doesn't, it runs the other part only. 
 # This is super helpful if we need to make different choices, or tell a story that can change based on what the user says!
