@@ -65,7 +65,7 @@ But just you wait, just you wait""")
 # However, whatever you print in the quotes, is exactly what you get out of the quotes. Examples:
 print("Gibb3rish")
 print("3+2")
-print('you're walking in the woods...&&%$#')
+# print('you're walking in the woods...&&%$#')
 
 # the last print statement doesn't work, and we got an error - can you tell me why?
 print("you're walking in the woods...&&%$#")
@@ -153,7 +153,19 @@ answer0 = input("Your choice (a/b): ")
 # Whether you did or did not doesn't provide much advantage, so no worries to those who didn't.
 # An if statement provides a way of having options in a program, where whatever input is received may then lead the program to make 
 # certain choices so as to continue in a specific direction. 
-# So let's see our story continue:
+# Take this example:
+input("type a whole number above 0: ")
+
+if x == 2: # we are asking a question about a variable, known as x.
+	print ("yes, it is 2!") # if the answer matches, then the output is the printed string
+else: # if it does not fit,
+	print ("that is not 2") #then the output says so
+# Here, we have code that splits off in two directions. If the data lines up one way, it runs that part of the code only.
+# If it doesn't, it runs the other part only. 
+# This is super helpful if we need to make different choices, or tell a story that can change based on what the user says!
+
+
+# Now let's see our story continue:
 Meow1 = """The adorable cat walks up to you and sits on a large leaf. The cat gives you an inquisitive look, and meows. You:
 A. kneel and reach out cautiously for the cat to sniff you
 B. step back, because you are intensely allergic to cats""" 
@@ -167,11 +179,11 @@ B. Decide to fight back"""
 print(inthewoods)     
 answer0 = (input("Your choice (a/b): ")  
 	   
-if answer0.lower().strip() == "a": 
+if answer0 == "a": 
 # here, you are starting with the if statement - if the answer by the user is an a, being if answer0 == a, then the following occurs:
 	print(Shia1) # good thing we're avoiding a whole chunk of string right here! It would look gross.
 	answershia1 = input("What do you do? (a/b): ")
-elif answer0.lower().strip() == "b":
+elif answer0 == "b":
 	print(Meow1)
 	answermeow1 = input("what do you do? (a/b): ")
 	   
