@@ -316,4 +316,7 @@ def ShiaStory():
 	elif answer0 == "b":
 	   print(Shia1B)
 	   answer2 = input(whatdo)
+	   
+
+def MeowStory():
 ######################## Running a Program ########################
