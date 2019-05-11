@@ -181,7 +181,10 @@ else: # if it does not fit,
 # Here, we have code that splits off in two directions. If the data lines up one way, it runs that part of the code only.
 # If it doesn't, it runs the other part only. 
 # This is super helpful if we need to make different choices, or tell a story that can change based on what the user says!
-
+# you can ask different questions with your if statement, and extend it out with more ifs. 
+# Once its done, if you need to wrap up the choices the code can make, use an else - if the user gives anything else, the else
+# catches it and can say "that doesn't match any of the if statements, so we can't run that. Try again."
+# This isn't the only way you can use if/else statements, but it will be how we introduce it in this workshop.
 
 # Now let's see our story continue:
 Meow1 = """The adorable cat walks up to you and sits on a large leaf. The cat gives you an inquisitive look, and meows. You:
@@ -196,7 +199,7 @@ B. Decide to fight back"""
 
 print(inthewoods)     
 answer0 = (input("Your choice (a/b): ")  
-	   
+
 if answer0 == "a": 
 # here, you are starting with the if statement - if the answer by the user is an a, being if answer0 == a, then the following 
 # occurs:
@@ -245,7 +248,11 @@ if <variable> == <variable>:
 # Where do you think we should start?
 
 def ShiaStory(): 
-	# Under here, we can put all of the strings we need for the story.	   
+	# Under here, we can put all of the strings we need for the story, and the code it will use. 	   
+	# def <func>() means we are 'defining' a function, which we do by giving it code to follow through. 
+	# I would recommend mapping out the stories with the variables used to keep track. The code will help track, but you
+	# don't want to miss an input choice if you change the story.
+	# Please note that the following story has some gore and violence. Note your audience and use discression.
 	Shia1 = """He's following you, about thirty feet back. He get's down on all fours and breaks into a 
 	sprint. He's gaining on you. You try to go back to the parking lot and find your car, but you're all turned
 	around. You:
@@ -257,9 +264,56 @@ def ShiaStory():
 	A. Attempt to gnaw your leg off
 	B. Drag the trap with you towards the cottage"""
 
-	Shia1B = """He's brandishing a knife, but you have a sword on you. The battle begins	   
-	# def <func>() means we are 'defining' a function, which we do by giving it code to follow through. 	   
-
+	Shia1B = """He's brandishing a knife, but you have a sword on you. The battle begins. He parries to the left, and
+	dodges your swipes. You counter to the right and stab him in the kidney. You:
+	A. Run after stabbing him in the kidney
+	B. Ask him "Shia, why me?" """
 	   
+	Shia1AA = """You have gnawed your leg off successfully, but now blood is oozing from your stump leg. You quietly fight
+	the pain as you find your way back to your car, not trusting the cottage. You unlock it and climb in, grabbing the 
+	sweater from your passenger seat to make a tourniquet to stop the bleeding. You're lightheaded. You:
+	A. turn your car on and plug your phone in
+	B. turn your car on and try to drive away"""
+	
+	Shia1AB = """You make it to the cottage and see Shia sitting inside, sharpening an axe. You sneak up behind him, but he
+	hears the clatter of the bear trap just as you get your hands around his neck. Shia surprise! He tries to turn to you, but 
+	you can do Jis Jitsu and bodyslam him down, knocking him out. You:
+	A. Tie him up and go plug your phone in to the wall socket with the charger you conveniently have in your pocket
+	B. Take the axe and finish him"""
+	
+	Shia1BA = """You note the positioning of the stars and recall that your car was parked in the south parking lot.
+	You run through the woods, and make it back to your car, jump in, and drive away. You can't believe that happened, and
+	as you hit the gas, you suddenly drive off a cliff, and wake up."""
+	
+	Shia1BB = """Shia says "its because you've grown too powerful", and he's right. You use your powers to fly off,
+	leaving him to the woods. You return to your home by flight, knowing this is not the last time you will see Shia
+	Labeouf."""	   
+	
+	Shia1AAA = """Unsure if Shia chased after you, you quickly dial 911. You state your emergency, and the police arrive
+	minutes later, because they've been after Shia Labeouf for quite some time. They swat the woods, but he's nowhere to be found.
+	Will this be the last of Shia Labeouf? You do not know.""""
+	
+	Shia1AAB = """As you drive off, you can't shake the feeling that you're being followed. You look in your rearview mirror,
+	and you see Shia jogging after you, but watch as he drops to all fours again and bounds towards your vehicle. As you look 
+	back to the road and accelerate, the idea comes to you to reverse. You quickly hit your brakes and reverse, and Shia
+	is taken by surprise, flattened by your vehicle. You have defeated Shia Labeouf.""""
+	
+	Shia1ABA = """You boot up your phone and begin an Instagram live stream for your thousands of followers, revealing
+	that you have captured Shia Labeouf and his tyranny is over. You get several comments and likes, and the authorities
+	use your video to pin your location and take away Shia Labeouf. As he awakens, he is dragged off, but he's staring
+	back at you, smiling. Is it over? You don't know."""   
+	
+	Shia1ABB = """You have just decapitated Shia Labeouf. His head topples to the floor, expressionless. You fall to your
+	knees and catch your breath. You're finally safe from Shia Labeouf."""
+	
+	whatdo = "what do you do? (a/b): "
 	   
+	print (Shia1)
+	answer0 = input(whatdo)
+	if answer0 == "a":
+	   print(Shia1A)
+	   answer1 = input(whatdo)
+	elif answer0 == "b":
+	   print(Shia1B)
+	   answer2 = input(whatdo)
 ######################## Running a Program ########################
