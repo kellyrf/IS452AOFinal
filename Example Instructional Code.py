@@ -311,25 +311,31 @@ def ShiaStory():
 	print (Shia1)
 	answer0 = input(whatdo)
 	if answer0 == "a":
-	   print(Shia1A)
-	   answer1 = input(whatdo)
-	   if answer1 == "a":
-	   	print(Shia1AA)
-	   	answer1A = input(whatdo)
-	   	if answer1A == "a":
-	   		print(Shia1AAA)
-	   	elif answer1A == "b":
-	   		print(Shia1AAB)
-	   elif answer1 =="b":
-	   	print(Shia1AB)
-	   	answer1B = input(whatdo)
-	   	if answer1B == "a":
-	   		print(Shia1ABA)
-	   	elif answer1B == "b":
-	   		print(Shia1ABB)
+		print(Shia1A)
+		answer1 = input(whatdo)
+		if answer1 == "a":
+			print(Shia1AA)
+			answer1A = input(whatdo)
+			if answer1A == "a":
+				print(Shia1AAA)
+			elif answer1A == "b":
+				print(Shia1AAB)
+		elif answer1 =="b":
+			print(Shia1AB)
+			answer1B = input(whatdo)
+			if answer1B == "a":
+				print(Shia1ABA)
+			elif answer1B == "b":
+				print(Shia1ABB)
 	elif answer0 == "b":
-	   print(Shia1B)
-	   answer2 = input(whatdo)
+		print(Shia1B)
+		answer2 = input(whatdo)
+		if answer2 == "a":
+			print(Shia1BA)
+		elif answer2 == "b":
+			print(Shia1BB)
+	else:
+		print("You may have answered in a way the story didn't understand. Run again.")
 	   
 
 def MeowStory():
