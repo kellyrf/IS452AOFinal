@@ -291,12 +291,12 @@ def ShiaStory():
 	
 	Shia1AAA = """Unsure if Shia chased after you, you quickly dial 911. You state your emergency, and the police arrive
 	minutes later, because they've been after Shia Labeouf for quite some time. They swat the woods, but he's nowhere to be found.
-	Will this be the last of Shia Labeouf? You do not know.""""
+	Will this be the last of Shia Labeouf? You do not know."""
 	
 	Shia1AAB = """As you drive off, you can't shake the feeling that you're being followed. You look in your rearview mirror,
 	and you see Shia jogging after you, but watch as he drops to all fours again and bounds towards your vehicle. As you look 
 	back to the road and accelerate, the idea comes to you to reverse. You quickly hit your brakes and reverse, and Shia
-	is taken by surprise, flattened by your vehicle. You have defeated Shia Labeouf.""""
+	is taken by surprise, flattened by your vehicle. You have defeated Shia Labeouf."""
 	
 	Shia1ABA = """You boot up your phone and begin an Instagram live stream for your thousands of followers, revealing
 	that you have captured Shia Labeouf and his tyranny is over. You get several comments and likes, and the authorities
@@ -313,6 +313,20 @@ def ShiaStory():
 	if answer0 == "a":
 	   print(Shia1A)
 	   answer1 = input(whatdo)
+	   if answer1 == "a":
+	   	print(Shia1AA)
+	   	answer1A = input(whatdo)
+	   	if answer1A == "a":
+	   		print(Shia1AAA)
+	   	elif answer1A == "b":
+	   		print(Shia1AAB)
+	   elif answer1 =="b":
+	   	print(Shia1AB)
+	   	answer1B = input(whatdo)
+	   	if answer1B == "a":
+	   		print(Shia1ABA)
+	   	elif answer1B == "b":
+	   		print(Shia1ABB)
 	elif answer0 == "b":
 	   print(Shia1B)
 	   answer2 = input(whatdo)
