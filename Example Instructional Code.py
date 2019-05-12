@@ -372,13 +372,28 @@ def MeowStory():
 	new kitty seems right at home. You dry off, and settle in front of the fireplace, when both cats jump up into your lap.
 	The evening ends with snuggles, Netflix, and a warm fire."""
 	Meow1BA = """The couple laughs, and says that they've seen the cat before. Allegedly the cat likes to bother all the
-	people who walk the trail and has survived off of the """
-	Meow1BAA = """ """
-	Meow1BAB = """ """
-	Meow1BB = """ """   
-	Meow1BB = """ """
-	Meow1BBA = """ """
-	Meow1BBB = """ """   
-	   
+	people who walk the trail and has survived off of the scraps offered by walkers. You:
+	A. ask if the cat has an owner
+	B. ask how long the cat has been around"""
+	Meow1BAA = """One of the couple says that the cat's owner is thought to have died on this trail, that the owner was
+	none other than Shia Labeouf. You freeze. You remember. Shia was taken out by your past self, and this cat was probably
+	going to exact revenge. You run, leaving the confused couple behind."""
+	Meow1BAB = """The couple mentions that the cat has been around for a while after a family that lived near the trail
+	moved away and left it behind. Animal control had attempted to capture and relocate the cat with a new family, but 
+	every time the cat was captured, the cat came back."""
+	Meow1BB = """They say yes, but seem hesitant. You try to ask if they are okay, when suddenly they both pull out bizarre
+	weapons that look intergalactic. You step back, telling them that you meant no harm. They say they're from Zenon, and 
+	have been trying to capture the dangerous cat like creature. Suddenly, the cat jumps out in the path in front of you, and
+	they try to blast it, but it is too ellusive. It opens its mouth and tentacles come flying out, grabbing and consuming
+	one of the pair. The other shouts "Damn you, flerken skum!" as the cat tentacles out again, eating the other. The two have
+	disappeared, and the cat turns to face you. You:
+	A. say "Uh, nice job little one" and back away
+	B. Grin at the cat knowingly"""   
+	Meow1BBA = """The cat/flerken seems to take the signal that you don't know what's going on, and trots off into the woods
+	after a butterfly."""
+	Meow1BBB = """The cat meows at you and purs a little. You thank the cat for its service to the intergalatic protectors.
+	You continue down the path, and find the cottage, where Captain Marvel awaits."""   
+	
+	
 	   
 ######################## Running a Program ########################
