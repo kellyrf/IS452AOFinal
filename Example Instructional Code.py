@@ -39,8 +39,8 @@
 ######################## Printing a String ########################
 
 # To begin a program, you have to type something. All great programers start somewhere, so we're going to start with "Hello".
-# In order to see the results of any program, you often need to print your output. Click inside of the type box loaded with the new 
-# program.
+# In order to see the results of any program, you often need to print your output. Click inside of the type box loaded with 
+# the new program.
 # Achieve your first line of code with:
 print("Hello World")
 # Type this exactly. Use double quotes.
@@ -125,8 +125,8 @@ choiceB = "B. An adorable cat"
 # When you make a program, you may want information from the person who is using the program, like this story.
 # For our purposes, we want to get the user prompts to know what kind of story they want - a weird or innocent one.
 # In a choose your own adventure story, you have options to make the story yours. 
-# Ours won't be as complex as the memorable books from childhood or Black Mirror: Bandersnatch, but will give simple prompts to choose
-# a different story for each choice.
+# Ours won't be as complex as the memorable books from childhood or Black Mirror: Bandersnatch, but will give simple prompts 
+# to choose a different story for each choice.
 # To do this, we need to prompt for an input, where the user interacts with the program by inputing content.
 print(inthewoods)
 print(choiceA)
@@ -290,8 +290,8 @@ def ShiaStory():
 	Labeouf."""	   
 	
 	Shia1AAA = """Unsure if Shia chased after you, you quickly dial 911. You state your emergency, and the police arrive
-	minutes later, because they've been after Shia Labeouf for quite some time. They swat the woods, but he's nowhere to be found.
-	Will this be the last of Shia Labeouf? You do not know."""
+	minutes later, because they've been after Shia Labeouf for quite some time. They swat the woods, but he's nowhere to 
+	be found. Will this be the last of Shia Labeouf? You do not know."""
 	
 	Shia1AAB = """As you drive off, you can't shake the feeling that you're being followed. You look in your rearview mirror,
 	and you see Shia jogging after you, but watch as he drops to all fours again and bounds towards your vehicle. As you look 
@@ -342,7 +342,8 @@ def ShiaStory():
 # why that's the right or wrong answer for how to do it.	   
 
 def MeowStory():
-	Meow1 = """The adorable cat walks up to you and sits on a large leaf. The cat gives you an inquisitive look, and meows. You:
+	Meow1 = """The adorable cat walks up to you and sits on a large leaf. The cat gives you an inquisitive look, and meows. 
+	You:
 	A. kneel and reach out cautiously for the cat to sniff you
 	B. step back, because you are intensely allergic to cats"""
 	
@@ -354,8 +355,8 @@ def MeowStory():
 	Meow1AB = """The cat seems satisfied with the exchange, and trots off to follow a butterfly. You continue on your walk,
 	and nothing exciting happens. It is a normal day."""
 	Meow1B = """The cat steps forward, unaware of its dangerous nature. You continue to back up, and the cat keeps following
-	you. You head back to the parking lot, and run into a couple walking at the trail head. You turn around, but the cat is gone.
-	You:
+	you. You head back to the parking lot, and run into a couple walking at the trail head. You turn around, but the cat is 
+	gone.You:
 	A. Warn them of the persistent cat
 	B. Ask them if they knew of a lost cat that seems friendly wandering the woods"""
 	Meow1AA = """The cat seems to meow in agreement. You pick up the cat and stand, and the cat puts its paws on your shoulder. 
@@ -452,11 +453,11 @@ elif answer00 == "b":
 
 # Because we created functions, that's all that needs to go into the main part of our program! We do have all the content above
 # it, but its easy to dissern the pieces of the program.	   
-# With that, you have a program! 
+# With that, press the green triangle and run through the possible stories. You have a program! 
 	   
 
 	   
-######################## Running a Program ########################	   
+######################## End credits for workshop ########################	   
 
 # Use the time at the end of the workshop to present resources in the area that can provide coding instruction to participants.
 # These resources can include materials at the library, college courses available to audit at local institutions, partnerships
