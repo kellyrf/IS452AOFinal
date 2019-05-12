@@ -337,6 +337,8 @@ def ShiaStory():
 	else:
 		print("You may have answered in a way the story didn't understand. Run again.")
 
+##### Break for snack break, 15 minutes #####	   
+	   
 # With the second story, we can follow pretty much the same formula. For this one, Have the students create it on their own
 # and prompt you through the process of typing it on the screen. Use the code here for reference. As you go along, ask them
 # why that's the right or wrong answer for how to do it.	   
