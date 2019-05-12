@@ -308,11 +308,11 @@ def ShiaStory():
 	
 	whatdo = "what do you do? (a/b): "
 	   
-	print (Shia1)
-	answer0 = input(whatdo)
-	if answer0 == "a":
-		print(Shia1A)
-		answer1 = input(whatdo)
+	print (Shia1) # start with the first part of the story to print
+	answer0 = input(whatdo) # set the input equal to a variable so that you can use it in the if statements
+	if answer0 == "a": # ask your first if statement of the two choices
+		print(Shia1A) # print what would follow if the user decided to choose path a
+		answer1 = input(whatdo) # rinse and repeat
 		if answer1 == "a":
 			print(Shia1AA)
 			answer1A = input(whatdo)
@@ -327,7 +327,7 @@ def ShiaStory():
 				print(Shia1ABA)
 			elif answer1B == "b":
 				print(Shia1ABB)
-	elif answer0 == "b":
+	elif answer0 == "b": # this is of the first two choices with the first print statement, but the second choice
 		print(Shia1B)
 		answer2 = input(whatdo)
 		if answer2 == "a":
@@ -336,7 +336,49 @@ def ShiaStory():
 			print(Shia1BB)
 	else:
 		print("You may have answered in a way the story didn't understand. Run again.")
-	   
+
+# With the second story, we can follow pretty much the same formula. For this one, Have the students create it on their own
+# and prompt you through the process of typing it on the screen. Use the code here for reference. As you go along, ask them
+# why that's the right or wrong answer for how to do it.	   
 
 def MeowStory():
+	Meow1 = """The adorable cat walks up to you and sits on a large leaf. The cat gives you an inquisitive look, and meows. You:
+	A. kneel and reach out cautiously for the cat to sniff you
+	B. step back, because you are intensely allergic to cats"""
+	
+	Meow1A = """The cat sniffs your hand and gives it a gentle nudge. You begin to scratch the cat's head gently. The cat
+	meows in approval. You sit on the ground and continue petting the cat, and the cat climbs into your lap and enjoys
+	the pets. You:
+	A. Ask the cat if it would like to come home with you
+	B. Pet the cat a little longer, and then motion to get up and get moving"""
+	Meow1B = """The cat steps forward, unaware of its dangerous nature. You continue to back up, and the cat keeps following
+	you. You head back to the parking lot, and run into a couple walking at the trail head. You turn around, but the cat is gone.
+	You:
+	A. Warn them of the persistent cat
+	B. Ask them if they knew of a lost cat that seems friendly wandering the woods"""
+	Meow1AA = """The cat seems to meow in agreement. You pick up the cat and stand, and the cat puts its paws on your shoulder. 
+	You begin walking back to the parking lot when it starts to rain. You pick up the pace, but the rain comes down harder.
+	The cat is upset, but seems to trust you. You make it to your car and hop in as the sky seems to open up. You:
+	A. Set the cat in the passenger seat and wait for the rain to pass, thinking the owner might show up
+	B. Set the cat in the passenger seat and start the car, driving back to your apartment"""
+	Meow1AAA = """The rain keeps persisting, so you check to see if the cat has any signs of a microchip. Though friendly, the 
+	cat shows no signs of microchipping. As the rain stops, you find that the cat has made itself comfortable on the seat,
+	so you start the car and head to your friend's house, who has been sad since they lost their previous cat to kitty 
+	cancer. When you arrive, they are elated to see you brought a furry friend, and you all hang out in front of the fire,
+	where the cat purs and you and your friend give it wonderful head scratches. The cat seems to like it at your friend's 
+	house, and you say "I think this kitty should stay here." Your friend couldn't be happier to agree."""
+	Meow1AAB = """You get back to your apartment and pick the kitty back up to take it inside. Once you get inside, you 
+	introduce your other cat, Shmallow, to the new friend, and they take to each other instantly, purring and grooming. The 
+	new kitty seems right at home. You dry off, and settle in front of the fireplace, when both cats jump up into your lap.
+	The evening ends with snuggles, Netflix, and a warm fire."""
+	Meow1BA = """The couple laughs, and says that they've seen the cat before. Allegedly the cat likes to bother all the
+	people who walk the trail and has survived off of the """
+	Meow1BAA = """ """
+	Meow1BAB = """ """
+	Meow1BB = """ """   
+	Meow1BB = """ """
+	Meow1BBA = """ """
+	Meow1BBB = """ """   
+	   
+	   
 ######################## Running a Program ########################
