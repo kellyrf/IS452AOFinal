@@ -72,7 +72,7 @@ But just you wait, just you wait""")
 # However, whatever you print in the quotes, is exactly what you get out of the quotes. Examples:
 print("Gibb3rish")
 print("3+2")
-# print('you're walking in the woods...&&%$#')
+print('you're walking in the woods...&&%$#')
 
 # the last print statement doesn't work, and we got an error - can you tell me why?
 # (After answer received) Yes - if we look at the error message, there is a problem with syntax, which means how something
