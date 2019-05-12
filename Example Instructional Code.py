@@ -418,14 +418,14 @@ def MeowStory():
 	   		answer2A = input(whatdo)
 	   		if answer2A == "a":
 	   			print(Meow1BAA)
-	   		if answer2A == "b":
+	   		elif answer2A == "b":
 	   			print(Meow1BAB)
 		elif answer2 == "b":
 			print(Meow1BB)
 	   		answer2B = input(whatdo)
 	   		if answer2B == "a":
 	   			print(Meow1BBA)
-	   		if answer2b == "b":
+	   		elif answer2B == "b":
 	   			print(Meow1BBB)
 	else:
 		print("You may have answered in a way the story didn't understand. Run again.")
@@ -441,14 +441,28 @@ you spot him. Its:
 A. Shia Labeouf
 B. An adorable cat"""
 
-print(inthewoods)	   
+whatdo = "what do you do? (a/b): "
+
+print(inthewoods)
 answer00 = input(whatdo)
 if answer00 == "a":
 	ShiaStory()
 elif answer00 == "b":
 	MeowStory()
+
 # Because we created functions, that's all that needs to go into the main part of our program! We do have all the content above
 # it, but its easy to dissern the pieces of the program.	   
+# With that, you have a program! 
+	   
+
+	   
+######################## Running a Program ########################	   
+
+# Use the time at the end of the workshop to present resources in the area that can provide coding instruction to participants.
+# These resources can include materials at the library, college courses available to audit at local institutions, partnerships
+# with local schools for robotics clubs, coding clubs, etc., or polling for further interest in coding clubs starting at your
+# library. 	   
+	   
 	   
 	   
 	   
