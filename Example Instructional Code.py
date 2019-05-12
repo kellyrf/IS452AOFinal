@@ -351,6 +351,8 @@ def MeowStory():
 	the pets. You:
 	A. Ask the cat if it would like to come home with you
 	B. Pet the cat a little longer, and then motion to get up and get moving"""
+	Meow1AB = """The cat seems satisfied with the exchange, and trots off to follow a butterfly. You continue on your walk,
+	and nothing exciting happens. It is a normal day."""
 	Meow1B = """The cat steps forward, unaware of its dangerous nature. You continue to back up, and the cat keeps following
 	you. You head back to the parking lot, and run into a couple walking at the trail head. You turn around, but the cat is gone.
 	You:
@@ -393,7 +395,40 @@ def MeowStory():
 	after a butterfly."""
 	Meow1BBB = """The cat meows at you and purs a little. You thank the cat for its service to the intergalatic protectors.
 	You continue down the path, and find the cottage, where Captain Marvel awaits."""   
-	
+
+	print (Meow1)
+	answer0 = input(whatdo) 
+	if answer0 == "a": 
+		print(Meow1A) 
+		answer1 = input(whatdo) 
+		if answer1 == "a":
+			print(Meow1AA)
+			answer1A = input(whatdo)
+			if answer1A == "a":
+				print(Meow1AAA)
+			elif answer1A == "b":
+				print(Meow1AAB)
+		elif answer1 =="b":
+			print(Meow1AB)
+	elif answer0 == "b": 
+		print(Meow1B)
+		answer2 = input(whatdo)
+		if answer2 == "a":
+			print(Meow1BA)
+	   		answer2A = input(whatdo)
+	   		if answer2A == "a":
+	   			print(Meow1BAA)
+	   		if answer2A == "b":
+	   			print(Meow1BAB)
+		elif answer2 == "b":
+			print(Meow1BB)
+	   		answer2B = input(whatdo)
+	   		if answer2B == "a":
+	   			print(Meow1BBA)
+	   		if answer2b == "b":
+	   			print(Meow1BBB)
+	else:
+		print("You may have answered in a way the story didn't understand. Run again.")
 	
 	   
 ######################## Running a Program ########################
