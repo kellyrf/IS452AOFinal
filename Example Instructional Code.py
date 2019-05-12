@@ -432,3 +432,23 @@ def MeowStory():
 	
 	   
 ######################## Running a Program ########################
+
+# Now its time to put the whole thing together. Because you made functions, the whole program is going to look pretty simple. 
+# Copy the completed defined functions into a new .py file, then type the following:
+
+inthewoods = """You’re walking in the woods, there is no one around, and your phone is dead. Out of the corner of your eye 
+you spot him. Its:
+A. Shia Labeouf
+B. An adorable cat"""
+
+print(inthewoods)	   
+answer00 = input(whatdo)
+if answer00 == "a":
+	ShiaStory()
+elif answer00 == "b":
+	MeowStory()
+# Because we created functions, that's all that needs to go into the main part of our program! We do have all the content above
+# it, but its easy to dissern the pieces of the program.	   
+	   
+	   
+	   
